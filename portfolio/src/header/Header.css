@@ -1,4 +1,20 @@
-.nav {
+.header {
+  display: flex;
+  height: 0%;
+  width: 100%;
+  justify-content: center;
+}
+
+.btn {
   background: #f74b42;
   color: white;
+  list-style-type: none;
+  font-size: 45px;
+  padding: 10px 25px 20px 25px;
+  border: #f74b42;
+}
+
+.btn-secondary :hover {
+  color: #fff;
+  opacity: 50%;
 }

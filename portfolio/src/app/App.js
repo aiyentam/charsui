@@ -8,8 +8,8 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <h1>Hello!</h1>
-        <p>My name is Ai Yen Tam.</p>
+        <h1 className="hello">Hello!</h1>
+        <h2>My name is Ai Yen Tam.</h2>
         <Footer />
       </div>
     );
