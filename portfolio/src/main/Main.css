@@ -1,0 +1,52 @@
+.hello {
+  animation: changeColor 8s ease-in infinite;
+  padding-top: 10%;
+  font-size: 130px;
+  margin-bottom: 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+@-webkit-keyframes changeColor {
+  0% {
+    color: rgb(75, 75, 75);
+  }
+  25% {
+    color: rgba(230, 230, 230, 0.303);
+  }
+  25% {
+    color: rgba(100, 100, 100, 0.7);
+  }
+  25% {
+    color: rgba(230, 230, 230, 0.303);
+  }
+  0% {
+    color: rgb(75, 75, 75);
+  }
+}
+
+.name {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.titles {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}

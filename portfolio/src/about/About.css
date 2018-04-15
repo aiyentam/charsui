@@ -1,0 +1,26 @@
+.about-title {
+  text-align: center;
+  font-weight: bold;
+  padding: 25px;
+  text-decoration-line: overline underline;
+}
+
+.tech-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  padding-bottom: 15px;
+}
+
+.skills {
+  text-align: center;
+}
+
+.skill-list p {
+  border-right: 0.15em solid orange;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  animation: type 4s steps(60, end), blink 0.75s step-end infinite;
+}

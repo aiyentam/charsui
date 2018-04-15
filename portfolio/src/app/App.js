@@ -1,15 +1,22 @@
 import React, { Component } from "react";
 import "../app/App.css";
 import Header from "../header/Header";
+import Main from "../main/Main";
+import About from "../about/About";
+import Portfolio from "../portfolio/Portfolio";
 import Footer from "../footer/Footer";
+import { Route, Switch } from "react-router-dom";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Header />
-        <h1 className="hello">Hello!</h1>
-        <h2>My name is Ai Yen Tam.</h2>
+        <Switch>
+          <Route exact path="/" component={Main} />
+          <Route path="/about" component={About} />
+          <Route path="/projects" component={Portfolio} />
+        </Switch>
         <Footer />
       </div>
     );

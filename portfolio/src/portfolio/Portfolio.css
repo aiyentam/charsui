@@ -1,0 +1,36 @@
+.project {
+  display: flex;
+  align-items: center;
+}
+
+.projects-title {
+  text-align: center;
+  font-weight: bold;
+  padding: 25px;
+  text-decoration-line: overline underline;
+}
+.project-img {
+  height: 180px;
+  width: 295px;
+  border: 3px solid black;
+  float: right;
+}
+
+.project-details {
+  min-width: 65%;
+  max-width: 65%;
+}
+
+.project-links {
+  display: inline-flex;
+}
+
+.project-links-icon {
+  text-align: center;
+  padding: 0 2px 0 2px;
+}
+
+.project-links-icon a span {
+  display: block;
+  font-size: 0.8em;
+}

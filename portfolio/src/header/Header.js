@@ -1,39 +1,51 @@
 import React, { Component } from "react";
-import {
-  Dropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem
-} from "reactstrap";
+import { Link } from "react-router-dom";
 import "../header/Header.css";
 
 class Header extends Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
 
     this.state = {
-      dropdownOpen: false
+      isOpen: false
     };
-    this.toggle = this.toggle.bind(this);
+    this.openNav = this.openNav.bind(this);
+    this.closeNav = this.closeNav.bind(this);
   }
-
-  toggle() {
+  openNav() {
     this.setState({
-      dropdownOpen: !this.state.dropdownOpen
+      isOpen: !this.state.isOpen
     });
   }
 
+  closeNav() {
+    document.getElementById("navbar").style.height = "0%";
+  }
+
   render() {
+    const openNavBar = this.state.isOpen ? (
+      <div className="overlay-contents">
+        <a
+          href="javascript:void(0)"
+          className="closebtn"
+          onClick={this.closeNav}
+        />
+        <Link to="/">Home</Link>
+
+        <Link to="/about">About</Link>
+
+        <Link to="/projects">Projects</Link>
+      </div>
+    ) : (
+      <div className="overlay-contents" />
+    );
+
     return (
-      <div className="header">
-        <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
-          <DropdownToggle className="btn btn btn-secondary">A</DropdownToggle>
-          <DropdownMenu>
-            <DropdownItem>Home</DropdownItem>
-            <DropdownItem>About</DropdownItem>
-            <DropdownItem>Projects</DropdownItem>
-          </DropdownMenu>
-        </Dropdown>
+      <div id="navbar" className="header overlay">
+        <span onClick={this.openNav}>
+          <button className="btn">A</button>
+          {openNavBar}
+        </span>
       </div>
     );
   }

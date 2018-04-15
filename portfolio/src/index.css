@@ -2,3 +2,12 @@ body {
   height: 100%;
   width: 100%;
 }
+
+span {
+  color: black;
+}
+
+::selection {
+  background: rgb(247, 192, 192);
+  color: white;
+}
