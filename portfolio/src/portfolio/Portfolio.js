@@ -7,13 +7,24 @@ class Portfolio extends Component {
       <div className="projects">
         <h1 className="projects-title">Projects</h1>
         <hr />
-        <div>
+        <div className="project-container">
           <div className="project">
             <div className="project-details">
               <div className="project-description">
                 <h2>Simon Says</h2>
                 <p>Follow the pattern of the colors! :) </p>
-
+              </div>
+              <div className="project-links">
+                <div className="project-links-icon">
+                  <a href="https://aiyentam.github.io/Simon-Says/">
+                    <img
+                      src="/images/globe.svg"
+                      className="icon"
+                      alt="github"
+                    />
+                    <span>Website</span>
+                  </a>
+                </div>
                 <div className="project-links-icon">
                   <a href="https://github.com/aiyentam/Simon-Says">
                     <img
@@ -119,7 +130,6 @@ class Portfolio extends Component {
             </div>
           </div>
           <hr />
-          <br />
         </div>
       </div>
     );

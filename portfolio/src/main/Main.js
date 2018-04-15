@@ -7,7 +7,7 @@ class Main extends Component {
       <div>
         <h1 className="hello">Hello!</h1>
         <h2 className="name">My name is Ai Yen Tam.</h2>
-        <p className="titles">developer || baker || creative</p>
+        <p className="titles">developer || creative || problem solver</p>
         <div className="icons">
           <a href="https://www.linkedin.com/in/ai-yen-tam-533121b2/">
             <img src="/images/linkedin.png" className="icon" alt="linkedin" />

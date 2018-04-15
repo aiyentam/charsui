@@ -6,8 +6,9 @@
 .projects-title {
   text-align: center;
   font-weight: bold;
-  padding: 25px;
+  padding-top: 10px;
   text-decoration-line: overline underline;
+  margin-bottom: 0px;
 }
 .project-img {
   height: 180px;

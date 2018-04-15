@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../about/About.css";
+import Skills from "./Skills";
 
 class About extends Component {
   render() {
@@ -7,22 +8,17 @@ class About extends Component {
       <div>
         <h1 className="about-title">About</h1>
         <hr />
-        <div className="skills">
-          <h2 className="tech-title">Technical Skills</h2>
-          <div className="skill-list">
-            <p>
-              HTML | CSS | JavaScript (Node, React & Redux, Express, Vue2, ES6)
-            </p>
-            <p>| Markdown | Unix | Git | MongoDB | Ruby | Ruby on Rails |</p>
-            <p>
-              Rest API | AJAX | JSON | BootStrap | WordPress | Relational
-              Databases (MySql, Postgres)
-            </p>
-            <p>| Cloud Platform (AWS, Heroku, mLab) |</p>
-          </div>
-        </div>
+        <p className="statement">
+          "Highly motivated individual with the ability to work effectively and
+          efficiently in a team. I have strong organizational and multi-tasking
+          skills with the innate ability to grasp concepts quickly and interact
+          with individuals at all levels. I enjoy problem solving, and building
+          applications. I love tackling challenges!"
+        </p>
         <hr />
-        <br />
+        <div className="resume">
+          <Skills />
+        </div>
       </div>
     );
   }

@@ -1,26 +1,77 @@
 .about-title {
   text-align: center;
   font-weight: bold;
-  padding: 25px;
+  padding-top: 10px;
   text-decoration-line: overline underline;
 }
 
-.tech-title {
-  text-align: center;
+.statement {
+  padding-left: 25px;
+  padding-right: 25px;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.sub-title {
   font-weight: bold;
-  font-size: 25px;
+  font-size: 20px;
+  padding-top: 15px;
   padding-bottom: 15px;
+  text-decoration-line: overline underline;
+  text-align: center;
 }
 
 .skills {
+  padding-top: 50px;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.skill-list {
   text-align: center;
+  font-weight: bold;
+  border: 3px solid black;
 }
 
 .skill-list p {
-  border-right: 0.15em solid orange;
-  text-align: center;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 100%;
-  animation: type 4s steps(60, end), blink 0.75s step-end infinite;
+  font-size: 13px;
+}
+
+.education {
+  border: 3px black solid;
+  border-top: none;
+  padding-left: 15px;
+}
+
+.education h3 {
+  font-size: 16px;
+}
+
+.education h4 {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.education h3,
+h4 {
+  text-align: left;
+  font-weight: bold;
+  padding-left: 5px;
+  text-decoration-line: underline;
+}
+
+.details {
+  text-align: left;
+  padding: 10px;
+}
+
+.sub-details {
+  font-size: 15px;
+}
+
+.resume {
+  display: inline-flex;
+  padding-left: 55px;
+  padding-right: 55px;
+  margin-bottom: 55px;
 }
