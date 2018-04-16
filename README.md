@@ -1,4 +1,6 @@
 ##Personal Website
+Check out my personal page :)
 
-Languages used: 
-- React.js
+##Languages used:
+
+* React.js
