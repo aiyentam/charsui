@@ -1,6 +1,6 @@
-##Personal Website
-Check out my personal page :)
+###Personal Website
+Check out my [personal page](http://curvy-arch.surge.sh/projects) :)
 
-##Languages used:
+###Languages used:
 
 * React.js
