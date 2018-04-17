@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import Extracurricular from "./Extracurricular";
 import Work from "./Work";
+import EducationTwo from "./EducationTwo";
 
 class Education extends Component {
   render() {
     return (
       <div className="education">
-        <h2 className="sub-title">Education</h2>
+        <h2 className="sub-title">Web Developer Experience</h2>
         <div className="details">
           <h3>General Assembly Web Development Immersive Washington, DC</h3>
           <h4>WDI Student January 2018 – April 2018</h4>
@@ -25,26 +26,41 @@ class Education extends Component {
               </li>
               <li>Build and deploy applications to a cloud platform.</li>
             </ul>
-            <h3>Virginia Commonwealth University Richmond, VA</h3>
-            <h4>BA International Studies May 2015</h4>
+            <h3>Hackathons MEANS DATABASE – The Hack to End Hunger</h3>
+            <h4>March 2018</h4>
             <ul>
               <li>
-                Concentration in Social Justice with a minor in Asia and Chinese
-                Studies.
+                Designed and created a streamlined, user-friendly application
+                for people of all background and literacy levels.
               </li>
+              <li> Languages used:</li>
+              <ul>
+                <li> React.js </li>
+              </ul>
             </ul>
-            <h3>National Taiwan Normal University Taipei, Taiwan</h3>
-            <h4>Study Aboard August 2012</h4>
+            <h3>CAPTIAL ONE – Code {"<FAM />"}</h3>
+            <h4>November 2017</h4>
             <ul>
+              <li>Participated in a 24-hour hackathon></li>
               <li>
-                An immersive program in studying the traditional arts and
-                culture.
+                Created a front-end application for families and friends to save
+                money to travel together at ease
               </li>
+              <li>Languages used:</li>
+              <ul>
+                <li> Vue.js </li>
+                <li>MongoDB</li>
+                <li> Node.js </li>
+                <li>Express.js</li>
+              </ul>
             </ul>
           </div>
         </div>
-        <Extracurricular />
+
         <Work />
+        <EducationTwo />
+
+        <Extracurricular />
       </div>
     );
   }

@@ -6,34 +6,6 @@ class Extracurricular extends Component {
       <div>
         <h2 className="sub-title">Extracurricular</h2>
         <div className="details">
-          <h3>Hackathons MEANS DATABASE – The Hack to End Hunger</h3>
-          <h4>March 2018</h4>
-          <ul>
-            <li>
-              Designed and created a streamlined, user-friendly application for
-              people of all background and literacy levels.
-            </li>
-            <li> Languages used:</li>
-            <ul>
-              <li> React.js </li>
-            </ul>
-          </ul>
-          <h3>CAPTIAL ONE – Code {"<FAM />"}</h3>
-          <h4>November 2017</h4>
-          <ul>
-            <li>Participated in a 24-hour hackathon></li>
-            <li>
-              Created a front-end application for families and friends to save
-              money to travel together at ease
-            </li>
-            <li>Languages used:</li>
-            <ul>
-              <li> Vue.js </li>
-              <li>MongoDB</li>
-              <li> Node.js </li>
-              <li>Express.js</li>
-            </ul>
-          </ul>
           <h3>
             alpha Kappa Delta Phi International Sorority Inc. Richmond, VA
           </h3>
