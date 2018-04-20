@@ -1,5 +1,5 @@
 Personal Website
-Check out my [personal page](http://curvy-arch.surge.sh/) :)
+Check out my [personal page](http://tam.aiyen.surge.sh/) :)
 
 Languages used:
 
