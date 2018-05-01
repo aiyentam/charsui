@@ -130,7 +130,43 @@ class Portfolio extends Component {
             </div>
           </div>
           <hr />
+          <div className="project-container">
+            <div className="project">
+              <div className="project-details">
+                <div className="project-description">
+                  <h2>Zen-Yatta</h2>
+                  <p>Welcome to Zen-Yatta, a place to meditate.</p>
+                </div>
+                <div className="project-links">
+                  <div className="project-links-icon">
+                    <a href="http://zen-yatta-koi.surge.sh/">
+                      <img
+                        src="/images/globe.svg"
+                        className="icon"
+                        alt="github"
+                      />
+                      <span>Website</span>
+                    </a>
+                  </div>
+                  <div className="project-links-icon">
+                    <a href="https://github.com/aiyentam/zen-yatta">
+                      <img
+                        src="/images/github_icon.png"
+                        className="icon"
+                        alt="github"
+                      />
+                      <span>Github</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="section-image">
+                <img src="/images/zen.png" className="project-img" />
+              </div>
+            </div>
+          </div>
         </div>
+        <hr />
       </div>
     );
   }
