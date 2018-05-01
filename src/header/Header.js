@@ -42,8 +42,8 @@ class Header extends Component {
 
     return (
       <div id="navbar" className="header overlay">
-        <span onClick={this.openNav}>
-          <button className="btn">A</button>
+        <span onClick={this.openNav} className="btn">
+          <img src="./images/hamburger.png" className="img" />
           {openNavBar}
         </span>
       </div>
